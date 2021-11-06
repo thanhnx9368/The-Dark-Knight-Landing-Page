@@ -1,0 +1,10 @@
+.main {
+  .section {
+
+  }
+  .section-1 {
+    @include backgroundCoverCenter;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}
