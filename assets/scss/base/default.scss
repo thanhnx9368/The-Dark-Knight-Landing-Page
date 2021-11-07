@@ -30,12 +30,15 @@ html, body{
 	font-size: 16px;
 	line-height: 24px;
 	color: $color-white;
+	overflow: hidden;
+	overflow-y: auto;
+
 	strong{
 		font-family: 'NotoSans-Bold';
 	}
 	h1{
 		font-size: 22px;
-		line-height: 28px;
+		line-height: 150%;
 		font-weight: inherit;
 		margin-bottom: 15px;
 		@include mediaMaxWidth(480px){
@@ -44,7 +47,7 @@ html, body{
 	}
 	h2{
 		font-size: 20px;
-		line-height: 26px;
+		line-height: 140%;
 		font-weight: inherit;
 		margin-bottom: 15px;
 		@include mediaMaxWidth(480px){
@@ -53,7 +56,7 @@ html, body{
 	}
 	h3{
 		font-size: 19px;
-		line-height: 24px;
+		line-height: 130%;
 		font-weight: inherit;
 		margin-bottom: 15px;
 		@include mediaMaxWidth(480px){

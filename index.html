@@ -26,22 +26,26 @@
     <link rel="stylesheet" href="./assets/scss/style.css">
     <script src="./assets/scripts/vendors/jquery.min.js"></script>
     <script src="./assets/scripts/vendors/aos.min.js"></script>
+    <link rel="stylesheet" href="assets/scss/templates/landing.scss">
 </head>
 <body>
+<div class="scroll_top" style="background-image: url('./assets/images/background/5.png')">
+    <img src="./assets/images/icon/arrow-upward.svg" alt="">
+</div>
 <main class="main">
     <section class="section section-1" style="background-image: url('./assets/images/background/banner.png')">
         <header>
-            <div class="logo">
+            <div class="logo" data-aos="fade-down" data-aos-delay="200">
                 <img src="./assets/images/logo.svg" alt="The Dead Knight">
             </div>
-            <div class="menus">
-                <a href="#" class="menu">
+            <div class="menus" data-aos="fade-down">
+                <a href="#" target="_blank" class="menu">
                     White paper
                 </a>
-                <a href="#" class="menu">
+                <a href="#" target="_blank" class="menu">
                     Features
                 </a>
-                <a href="#" class="menu">
+                <a href="#" target="_blank" class="menu">
                     Roadmap
                 </a>
                 <div class="menu social-list">
@@ -64,7 +68,8 @@
                 </div>
             </div>
         </header>
-        <div class="characters-wrapper">
+        <div class="characters-wrapper" data-aos="zoom-in-down" data-aos-delay="600"
+             data-aos-duration="1500">
             <div class="characters-list">
                 <div class="character">
                     <img src="./assets/images/characters/13.gif" alt="">
@@ -81,8 +86,6 @@
                 <div class="character">
                     <img src="./assets/images/characters/11.gif" alt="">
                 </div>
-            </div>
-            <div class="characters-list list-second">
                 <div class="character">
                     <img src="./assets/images/characters/7.gif" alt="">
                 </div>
@@ -96,24 +99,47 @@
                     <img src="./assets/images/characters/10.gif" alt="">
                 </div>
             </div>
+<!--            <div class="characters-list list-second">-->
+<!--                <div class="character">-->
+<!--                    <img src="./assets/images/characters/7.gif" alt="">-->
+<!--                </div>-->
+<!--                <div class="character">-->
+<!--                    <img src="./assets/images/characters/9.gif" alt="">-->
+<!--                </div>-->
+<!--                <div class="character">-->
+<!--                    <img src="./assets/images/characters/1.gif" alt="">-->
+<!--                </div>-->
+<!--                <div class="character">-->
+<!--                    <img src="./assets/images/characters/10.gif" alt="">-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
-        <div class="direct-links">
-            <a href="#" class="link">
+        <div class="direct-links" data-aos="zoom-out-up" data-aos-delay="1800">
+            <a href="#" target="_blank" class="link">
                 <img class="default" src="./assets/images/button/btn-5.svg" alt="">
                 <img class="active" src="./assets/images/button/btn-5-active.svg" alt="">
             </a>
-            <a href="#" class="link">
+            <a href="#" target="_blank" class="link">
                 <img class="default" src="./assets/images/button/btn-1.svg" alt="">
                 <img class="active" src="./assets/images/button/btn-1-active.svg" alt="">
             </a>
-            <a href="#" class="link">
+            <div class="link download">
                 <img src="./assets/images/button/btn-2.svg" alt="">
-            </a>
+                <div class="app-stores" style="background-image: url('./assets/images/button/hint.svg')">
+                    <a href="#" target="_blank" class="app">
+                        <img src="./assets/images/button/appstore.svg" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="app">
+                        <img src="./assets/images/button/googleplay.png" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
+
     <section class="section section-2" style="background-image: url('./assets/images/background/2.png')">
         <div class="section-text-top">
-            <div class="item">
+            <div class="item" data-aos="fade-up-right">
                 <h3 class="title">
                     The Dead Knight
                 </h3>
@@ -126,7 +152,7 @@
                     </p>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" data-aos="fade-up-left">
                 <h3 class="title">
                     The <span class="text-blue">Attributes</span>
                 </h3>
@@ -140,7 +166,7 @@
                     </div>
             </div>
         </div>
-        <div class="section-characters">
+        <div class="section-characters" data-aos="fade-up" data-aos-delay="400">
             <div class="character">
                 <img src="./assets/images/characters/3.gif" alt="">
             </div>
@@ -151,7 +177,7 @@
                 <img src="./assets/images/characters/15.gif" alt="">
             </div>
         </div>
-        <div class="section-text-bottom">
+        <div class="section-text-bottom" data-aos="fade-up" data-aos-delay="400">
             <div class="item">
                 <h3 class="title">
                     <span class="text-blue">Play-To-Earn</span> - NFT Game
@@ -168,14 +194,14 @@
         </div>
     </section>
     <section class="section section-3" style="background-image: url('./assets/images/background/3.png')">
-        <div class="block-title">
+        <div class="block-title" data-aos="fade-up" data-aos-delay="400">
             <span class="text-blue">The Dead Knight</span> Features
         </div>
-        <div class="block-videos">
+        <div class="block-videos" data-aos="flip-up">
             <img src="./assets/images/background/video-screen.png" alt="">
         </div>
         <div class="block-features">
-            <div class="feature">
+            <div class="feature" data-aos="fade-up" data-aos-delay="300">
                 <div class="title">
                     In-game Marketplace
                 </div>
@@ -183,7 +209,7 @@
                     All Dead Knight NFTs are based on blockchain technology. That means everything can be digitally owned, transferred, sold in-game. Buy or Sell your NFTs collected in the game on the marketplace to get profits.
                 </div>
             </div>
-            <div class="feature">
+            <div class="feature" data-aos="fade-up" data-aos-delay="450">
                 <div class="title">
                     Farming
                 </div>
@@ -191,7 +217,7 @@
                     The Training function is a combination of Yield Farming and GameFi. The term defines the process for obtaining the highest yield and a method to earn more DK Tokens with your Tokens, increasing asset value for holders and creating significant value for the ecosystem.
                 </div>
             </div>
-            <div class="feature">
+            <div class="feature" data-aos="fade-up" data-aos-delay="600">
                 <div class="title">
                     PVE
                 </div>
@@ -199,7 +225,7 @@
                     Use your Knight to compete for a battle with Boss on PVE to receive a reward of DK tokens, items and experience to help your Knight level up and increase his fighting strength, win rate and luck.
                 </div>
             </div>
-            <div class="feature">
+            <div class="feature" data-aos="fade-up" data-aos-delay="750">
                 <div class="title">
                     PVP
                 </div>
@@ -208,20 +234,20 @@
                 </div>
             </div>
         </div>
-        <div class="character-relative--left">
+        <div class="character-relative--left" data-aos="fade-up-right">
             <img src="./assets/images/characters/8.gif" alt="">
         </div>
-        <div class="character-relative--right">
+        <div class="character-relative--right" data-aos="fade-up-left">
             <img src="./assets/images/characters/12.gif" alt="">
         </div>
     </section>
     <section class="section section-4" style="background-image: url('./assets/images/background/4.png')">
-        <div class="block-title">
+        <div class="block-title" data-aos="fade-up">
             RoadMap
         </div>
-        <div class="timeline">
-            <div class="container left">
-                <i class="icon fa fa-home"></i>
+        <div class="timeline" >
+            <div class="container left" data-aos="zoom-in-right" data-aos-delay="150">
+                <img src="./assets/images/icon/tl-1.png" class="icon"  alt=""/>
                 <div class="content">
                     <div class="date">November 2021</div>
                     <h2>Minting of the first 9999 Dead Knight NFTs on the initial home</h2>
@@ -229,8 +255,8 @@
                     <p>Game design and graphic interface</p>
                 </div>
             </div>
-            <div class="container right">
-                <i class="icon fa fa-gift"></i>
+            <div class="container right" data-aos="zoom-in-left" data-aos-delay="300">
+                <img src="./assets/images/icon/tl-2.png" class="icon" alt=""/>
                 <div class="content">
                     <div class="date">December 2021</div>
                     <h2>Release Dead Knights Close beta Version</h2>
@@ -240,8 +266,8 @@
                     <p>Release more in-game Dead Knight NFTs</p>
                 </div>
             </div>
-            <div class="container left">
-                <i class="icon fa fa-user"></i>
+            <div class="container left" data-aos="zoom-in-right" data-aos-delay="450">
+                <img src="./assets/images/icon/tl-3.png" class="icon" alt=""/>
                 <div class="content">
                     <div class="date">Q1 2022</div>
                     <h2>Integrate weapon and equipment NFT in-game</h2>
@@ -249,8 +275,8 @@
                     <p>Release Raid Boss & boss rewards system</p>
                 </div>
             </div>
-            <div class="container right">
-                <i class="icon fa fa-running"></i>
+            <div class="container right" data-aos="zoom-in-left" data-aos-delay="600">
+                <img src="./assets/images/icon/tl-4.png" class="icon" alt=""/>
                 <div class="content">
                     <div class="date">Q2 2022</div>
                     <h2>Release artifact NFT system</h2>
@@ -258,8 +284,8 @@
                     <p>Introduce daily quest</p>
                 </div>
             </div>
-            <div class="container left">
-                <i class="icon fa fa-cog"></i>
+            <div class="container left" data-aos="zoom-in-right" data-aos-delay="750">
+                <img src="./assets/images/icon/tl-4.png" class="icon" alt=""/>
                 <div class="content">
                     <div class="date">Q3 2022</div>
                     <h2>Optimize rewards system
@@ -269,8 +295,8 @@
                     <p>Introduce upgrade & forge system</p>
                 </div>
             </div>
-            <div class="container right">
-                <i class="icon fa fa-certificate"></i>
+            <div class="container right" data-aos="zoom-in-left" data-aos-delay="900">
+                <img src="./assets/images/icon/tl-4.png" class="icon" alt=""/>
                 <div class="content">
                     <div class="date">Q4 2022</div>
                     <h2>Introduce Dead Knight Online League</h2>
@@ -283,31 +309,56 @@
     </section>
 </main>
 <footer style="background-image: url('./assets/images/background/5.png')">
-    <div class="logo">
-        <img src="./assets/images/logo.svg" alt="The Dead Knight">
-    </div>
-    <div class="social-list">
-        <a href="#" class="social-item">
-            <img src="./assets/images/button/social/twitter.svg" alt="The Dead Knight">
-            <img class="active" src="./assets/images/button/social/twitter-active.svg" alt="The Dead Knight">
-        </a>
-        <a href="#" class="social-item">
-            <img src="./assets/images/button/social/fb.svg" alt="The Dead Knight">
-            <img class="active" src="./assets/images/button/social/fb-active.svg" alt="The Dead Knight">
-        </a>
-        <a href="#" class="social-item">
-            <img src="./assets/images/button/social/discord.svg" alt="The Dead Knight">
-            <img class="active" src="./assets/images/button/social/discord-active.svg" alt="The Dead Knight">
-        </a>
-        <a href="#" class="social-item">
-            <img src="./assets/images/button/social/twitter.svg" alt="The Dead Knight">
-            <img class="active" src="./assets/images/button/social/twitter-active.svg" alt="The Dead Knight">
-        </a>
+    <div data-aos="zoom-in-up" data-aos-delay="1000">
+        <div class="logo">
+            <img src="./assets/images/logo.svg" alt="The Dead Knight">
+        </div>
+        <div class="social-list">
+            <a href="#" target="_blank" class="social-item">
+                <img src="./assets/images/button/social/twitter.svg" alt="The Dead Knight">
+                <img class="active" src="./assets/images/button/social/twitter-active.svg" alt="The Dead Knight">
+            </a>
+            <a href="#" target="_blank" class="social-item">
+                <img src="./assets/images/button/social/fb.svg" alt="The Dead Knight">
+                <img class="active" src="./assets/images/button/social/fb-active.svg" alt="The Dead Knight">
+            </a>
+            <a href="#" target="_blank" class="social-item">
+                <img src="./assets/images/button/social/discord.svg" alt="The Dead Knight">
+                <img class="active" src="./assets/images/button/social/discord-active.svg" alt="The Dead Knight">
+            </a>
+            <a href="#" target="_blank" class="social-item">
+                <img src="./assets/images/button/social/twitter.svg" alt="The Dead Knight">
+                <img class="active" src="./assets/images/button/social/twitter-active.svg" alt="The Dead Knight">
+            </a>
+        </div>
     </div>
 </footer>
 <script>
     $(function () {
-        console.log("ready!");
+        AOS.init({
+            offset: 0,
+            duration: 800,
+            easing: 'ease-in-out',
+            disable: 'mobile'
+        });
+
+        var lastScrollTop = 0;
+        $(window).scroll(function() {
+            let currentScrollTop = $(this).scrollTop() + 1;
+
+            if(currentScrollTop > 100){
+                $('.scroll_top').addClass('scroll-btn-active')
+            }else{
+                $('.scroll_top').removeClass('scroll-btn-active')
+            }
+
+            lastScrollTop = currentScrollTop;
+        });
+
+        $('.scroll_top').click(function(){
+            $('html, body').animate({scrollTop:0}, 1200);
+            return false;
+        })
     });
 </script>
 </body>

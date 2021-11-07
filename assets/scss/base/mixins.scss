@@ -55,6 +55,11 @@
     background-position: center center;
 }
 
+@mixin backgroundContainCenter {
+    background-size: contain;
+    background-position: center center;
+}
+
 @mixin transition($value) {
     -webkit-transition: $value;
     -moz-transition: $value;
