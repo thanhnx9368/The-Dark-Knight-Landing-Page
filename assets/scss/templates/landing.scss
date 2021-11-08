@@ -994,6 +994,7 @@
     .section-4 {
       .timeline::after {
         height: 90%;
+        top: 10px;
       }
     }
   }
@@ -1052,8 +1053,24 @@ footer {
     }
   }
 
+  @include mediaMaxWidth(768px) {
+    .logo {
+      img {
+        width: 70%;
+      }
+    }
+  }
+
   @include mediaMaxWidth(480px) {
     padding: 40px 0 50px;
+    .logo {
+      img {
+        width: 80%;
+      }
+    }
+    .social-list {
+      margin-top: 20px;
+    }
   }
 }
 

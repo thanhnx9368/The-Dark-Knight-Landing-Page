@@ -1794,6 +1794,7 @@ html h6, body h6 {
 @media only screen and (max-width: 420px) {
   .main .section-4 .timeline::after {
     height: 90%;
+    top: 10px;
   }
 }
 
@@ -1844,9 +1845,20 @@ footer .social-list .social-item:hover img.active {
   display: block;
   transform: scale(1.4);
 }
+@media only screen and (max-width: 768px) {
+  footer .logo img {
+    width: 70%;
+  }
+}
 @media only screen and (max-width: 480px) {
   footer {
     padding: 40px 0 50px;
+  }
+  footer .logo img {
+    width: 80%;
+  }
+  footer .social-list {
+    margin-top: 20px;
   }
 }
 
