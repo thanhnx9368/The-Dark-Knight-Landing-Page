@@ -114,7 +114,7 @@
       .social-list {
         display: flex;
         align-items: center;
-        padding: 10px 30px;
+        padding: 9px 30px;
         border-right: 0;
 
         .social-item {
@@ -130,19 +130,11 @@
           img {
             @include transition-time(.3s);
 
-            &.active {
-              display: none;
-            }
           }
 
           &:hover {
             img {
-              display: none;
-
-              &.active {
-                display: block;
-                transform: scale(1.4);
-              }
+              transform: scale(1.4);
             }
           }
         }

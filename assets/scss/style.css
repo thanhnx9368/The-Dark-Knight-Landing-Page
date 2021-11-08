@@ -1078,7 +1078,7 @@ html h6, body h6 {
 .main header .menus .social-list {
   display: flex;
   align-items: center;
-  padding: 10px 30px;
+  padding: 9px 30px;
   border-right: 0;
 }
 .main header .menus .social-list .social-item {
@@ -1096,14 +1096,7 @@ html h6, body h6 {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.main header .menus .social-list .social-item img.active {
-  display: none;
-}
 .main header .menus .social-list .social-item:hover img {
-  display: none;
-}
-.main header .menus .social-list .social-item:hover img.active {
-  display: block;
   transform: scale(1.4);
 }
 .main .section-1 {
