@@ -344,19 +344,30 @@
             disable: 'mobile'
         });
 
-        var lastScrollTop = 0;
+        let lastScrollTop = 0;
         $(window).scroll(function() {
             let currentScrollTop = $(this).scrollTop() + 1;
 
             if(currentScrollTop > 100){
-                $('.social-network').addClass('is-roll')
                 $('.scroll_top_pc').addClass('scroll-btn-active')
             }else{
-                $('.social-network').removeClass('is-roll')
                 $('.scroll_top_pc').removeClass('scroll-btn-active')
             }
 
             lastScrollTop = currentScrollTop;
+        });
+
+
+        var previousScroll = 0;
+        $(window).scroll(function(){
+            var currentScroll = $(this).scrollTop();
+            if (currentScroll > previousScroll && currentScroll > 100){
+                $('.social-network').addClass('is-roll')
+
+            }else if(currentScroll < previousScroll && currentScroll > 0) {
+                $('.social-network').removeClass('is-roll')
+            }
+            previousScroll = currentScroll;
         });
 
         $('.scroll_top_pc').click(function(){
