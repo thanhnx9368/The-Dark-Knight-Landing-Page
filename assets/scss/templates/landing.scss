@@ -178,15 +178,27 @@
           height: 100%;
           background: 0 0;
           position: relative;
+          @include mediaMinWidth(1024px) {
+            &:nth-child(n+6) {
+              top: -60px;
+              right: -90px;
+            }
+          }
 
+          @include mediaMinWidth(1440px) {
+            &:nth-child(n+6) {
+              top: -120px;
+              right: -100px;
+            }
+          }
         }
 
-        &.list-second {
-          grid-template-columns: repeat(5, 1fr);
-          top: -140px;
-          position: relative;
-          right: -120px;
-        }
+        // &.list-second {
+        //   grid-template-columns: repeat(5, 1fr);
+        //   top: -140px;
+        //   position: relative;
+        //   right: -120px;
+        // }
       }
     }
 
