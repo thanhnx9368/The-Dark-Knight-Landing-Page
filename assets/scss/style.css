@@ -1050,7 +1050,7 @@ html h6, body h6 {
 }
 .social-network .icon-social img {
   padding: 4px;
-  width: 30px;
+  width: 35px;
 }
 .social-network .icon-social:first-child {
   border-radius: 10px 0px 0px 0px;
@@ -1791,7 +1791,7 @@ html h6, body h6 {
     line-height: 130%;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 420px) {
   .main .section-4 .timeline::after {
     height: 90%;
   }
