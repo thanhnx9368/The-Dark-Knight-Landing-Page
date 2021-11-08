@@ -238,15 +238,26 @@
         &.download {
           .app-stores {
             display: none;
-            width: percentage(533 / 262);
-            height: 160px;
+            //width: percentage(533 / 262);
+
+            width: percentage(400 / 262);
             @include backgroundContainCenter;
             background-repeat: no-repeat;
             position: absolute;
-            top: -165px;
-            right: -20%;
+            //height: 160px;
+            //top: -160px;
+            //right: -20%;
+
+            height: 140px;
+            top: -140px;
+            right: -5%;
             align-items: center;
             justify-content: center;
+            h4 {
+              font-family: '8-Bit', sans-serif;
+              font-size: 30px;
+              color: #000;
+            }
             .app {
               margin-right: 10px;
               margin-bottom: 25px;
@@ -694,6 +705,17 @@
         bottom: 30px;
         .link {
           margin-right: 16px;
+          &.download {
+            .app-stores {
+              height: 110px;
+              top: -110px;
+              right: -5%;
+              width: 140%;
+              h4 {
+                font-size: 22px;
+              }
+            }
+          }
         }
       }
 
@@ -804,6 +826,10 @@
               top: -70px;
               right: -10%;
               height: 70px;
+              width: 150%;
+              h4 {
+                font-size: 14px;
+              }
               .app {
                 margin-right: 4px;
                 margin-bottom: 10px;
