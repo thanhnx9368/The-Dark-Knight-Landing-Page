@@ -362,10 +362,9 @@
         $(window).scroll(function(){
             var currentScroll = $(this).scrollTop();
             if (currentScroll > previousScroll && currentScroll > 100){
-                $('.social-network').addClass('is-roll')
-
-            }else if(currentScroll < previousScroll && currentScroll > 0) {
                 $('.social-network').removeClass('is-roll')
+            }else if(currentScroll < previousScroll && currentScroll > 0) {
+                $('.social-network').addClass('is-roll')
             }
             previousScroll = currentScroll;
         });
