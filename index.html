@@ -28,8 +28,26 @@
     <script src="./assets/scripts/vendors/aos.min.js"></script>
 </head>
 <body>
-<div class="scroll_top" style="background-image: url('./assets/images/background/5.png')">
-    <img src="./assets/images/icons/arrow-upward.svg" alt="The Dead Knight">
+<div class="scroll_top_pc" style="background-image: url('./assets/images/background/5.png')">
+    <img src="./assets/images/icons/arrow-upward-white.svg" alt="The Dead Knight">
+</div>
+
+<div class="social-network">
+    <a href="#" class="icon-social">
+        <img src="./assets/images/icons/MdiTwitter.svg" alt="The Dead Knight">
+    </a>
+    <a href="#" class="icon-social">
+        <img src="./assets/images/icons/MdiFacebook%201.svg" alt="The Dead Knight">
+    </a>
+    <a href="#" class="icon-social">
+        <img src="./assets/images/icons/MdiDiscord.svg" alt="The Dead Knight">
+    </a>
+    <a href="#" class="icon-social">
+        <img src="./assets/images/icons/MdiTelegram.svg" alt="The Dead Knight">
+    </a>
+    <a href="javascript:void(0)" class="icon-social scroll_top">
+        <img src="./assets/images/icons/arrow-upward.svg" alt="The Dead Knight">
+    </a>
 </div>
 <main class="main">
     <section class="section section-1" style="background-image: url('./assets/images/background/banner.png')">
@@ -331,13 +349,20 @@
             let currentScrollTop = $(this).scrollTop() + 1;
 
             if(currentScrollTop > 100){
-                $('.scroll_top').addClass('scroll-btn-active')
+                $('.social-network').addClass('is-roll')
+                $('.scroll_top_pc').addClass('scroll-btn-active')
             }else{
-                $('.scroll_top').removeClass('scroll-btn-active')
+                $('.social-network').removeClass('is-roll')
+                $('.scroll_top_pc').removeClass('scroll-btn-active')
             }
 
             lastScrollTop = currentScrollTop;
         });
+
+        $('.scroll_top_pc').click(function(){
+            $('html, body').animate({scrollTop:0}, 1200);
+            return false;
+        })
 
         $('.scroll_top').click(function(){
             $('html, body').animate({scrollTop:0}, 1200);

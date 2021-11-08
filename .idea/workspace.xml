@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b04c9eb-2a41-4650-8e91-40fa61509623" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/arrow-upward-white.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icons/arrow-upward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icons/arrow-upward.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/templates/landing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/templates/landing.scss" afterDir="false" />
@@ -53,23 +55,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/icons" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/icons" />
+      <recent name="$PROJECT_DIR$/assets/images/button" />
+      <recent name="$PROJECT_DIR$/assets/images/icon" />
+      <recent name="$PROJECT_DIR$/assets/images/Icon" />
+      <recent name="$PROJECT_DIR$/assets/images/background" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/icon" />
       <recent name="$PROJECT_DIR$/assets/images/button" />
       <recent name="$PROJECT_DIR$/assets/js" />
       <recent name="$PROJECT_DIR$/assets/images/characters" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images/button" />
-      <recent name="$PROJECT_DIR$/assets/images/icon" />
-      <recent name="$PROJECT_DIR$/assets/images/Icon" />
-      <recent name="$PROJECT_DIR$/assets/images/background" />
-      <recent name="$PROJECT_DIR$/assets/images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -105,9 +107,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1636392192891">
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1636394079359">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1636392192891" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1636394079359" />
+    <state x="521" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636394468797">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="521" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1636394468797" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1636392851087">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1636392851087" />
   </component>
 </project>
