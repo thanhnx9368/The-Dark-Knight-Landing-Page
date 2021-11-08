@@ -1475,6 +1475,20 @@ html h6, body h6 {
   .main .section-1 header {
     padding: 30px 0 100px;
   }
+  .main .section-1 .direct-links .link.download .app-stores {
+    top: -120px;
+    height: 120px;
+    width: 180%;
+  }
+  .main .section-1 .direct-links .link.download .app-stores .app {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main .section-1 .direct-links .link.download .app-stores .app img {
+    width: 75%;
+  }
   .main .section-2 .section-text-bottom {
     width: 100%;
   }
@@ -1588,14 +1602,30 @@ html h6, body h6 {
     width: 91.6666666667%;
   }
   .main .section-1 .characters-wrapper .characters-list {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .main .section-1 .characters-wrapper .characters-list .character:nth-child(n+5) {
+    top: -25px;
+  }
+  .main .section-1 .characters-wrapper .characters-list .character:nth-child(n+9) {
+    top: -50px;
   }
   .main .section-1 .direct-links {
     width: 95%;
-    bottom: 30px;
+    bottom: 50px;
   }
   .main .section-1 .direct-links .link {
     margin-right: 4px;
+  }
+  .main .section-1 .direct-links .link.download .app-stores {
+    top: -70px;
+    right: -10%;
+    height: 70px;
+  }
+  .main .section-1 .direct-links .link.download .app-stores .app {
+    margin-right: 4px;
+    margin-bottom: 10px;
+    width: 40%;
   }
   .main .section-2 .section-text-top, .main .section-2 .section-text-bottom {
     padding: 0 8px;
@@ -1609,6 +1639,10 @@ html h6, body h6 {
   }
   .main .section-2 .section-characters {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .main .section-2 .section-characters .character:nth-child(3) {
+    right: -50%;
+    top: -50px;
   }
   .main .section-2 .section-text-bottom {
     width: 100%;
