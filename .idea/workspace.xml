@@ -21,9 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b04c9eb-2a41-4650-8e91-40fa61509623" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/button/googleplay.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/base/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/base/default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/base/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/base/mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/templates/landing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/templates/landing.scss" afterDir="false" />
@@ -88,7 +85,7 @@
       <workItem from="1636271776572" duration="73000" />
       <workItem from="1636271855599" duration="12000" />
       <workItem from="1636271871647" duration="72000" />
-      <workItem from="1636271947141" duration="8215000" />
+      <workItem from="1636271947141" duration="10192000" />
     </task>
     <servers />
   </component>

@@ -331,6 +331,11 @@
       margin: 0 auto;
       position: relative;
       z-index: 1;
+      @include mediaMinWidth(1921px) {
+        img {
+          width: 100%;
+        }
+      }
     }
 
     .block-features {
@@ -358,6 +363,9 @@
       position: absolute;
       top: -50px;
       right: percentage(1530 / 1920);
+      @include mediaMinWidth(1921px) {
+       top: -250px;
+      }
     }
 
     .character-relative--right {
@@ -369,6 +377,9 @@
 
       img {
         transform: scaleX(-1);
+      }
+      @include mediaMinWidth(1921px) {
+        top: -250px;
       }
     }
   }
@@ -532,7 +543,7 @@
         bottom: 0;
         left: 50%;
         margin-left: -1px;
-        height: 90%;
+        height: 88%;
       }
 
       @include mediaMaxWidth(767.98px){

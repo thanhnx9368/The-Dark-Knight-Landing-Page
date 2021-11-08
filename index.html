@@ -38,13 +38,13 @@
                 <img src="./assets/images/logo.svg" alt="The Dead Knight">
             </div>
             <div class="menus" data-aos="fade-down">
-                <a href="#" target="_blank" class="menu">
+                <a href="#"  target="_blank" class="menu">
                     White paper
                 </a>
-                <a href="#" target="_blank" class="menu">
+                <a href="javascript:void(0)" target="_blank" class="menu menu_feature">
                     Features
                 </a>
-                <a href="#" target="_blank" class="menu">
+                <a href="javascript:void(0)" target="_blank" class="menu menu_roadmap">
                     Roadmap
                 </a>
                 <div class="menu social-list">
@@ -179,7 +179,7 @@
         </div>
     </section>
 
-    <section class="section section-3" style="background-image: url('./assets/images/background/3.png')">
+    <section id="feature" class="section section-3" style="background-image: url('./assets/images/background/3.png')">
         <div class="block-title" data-aos="fade-up" data-aos-delay="400">
             <span class="text-blue">The Dead Knight</span> Features
         </div>
@@ -228,7 +228,7 @@
         </div>
     </section>
     
-    <section class="section section-4" style="background: linear-gradient(360deg, #212135 0%, rgba(33, 33, 53, 0) 30.2%), linear-gradient(180deg, #2A012C 0%, rgba(42, 1, 44, 0) 75.91%), linear-gradient(0deg, rgba(37, 0, 38, 0.3), rgba(37, 0, 38, 0.3)), url('./assets/images/background/4.png');">
+    <section id="roadmap" class="section section-4" style="background: linear-gradient(360deg, #212135 0%, rgba(33, 33, 53, 0) 30.2%), linear-gradient(180deg, #2A012C 0%, rgba(42, 1, 44, 0) 75.91%), linear-gradient(0deg, rgba(37, 0, 38, 0.3), rgba(37, 0, 38, 0.3)), url('./assets/images/background/4.png');">
         <div class="block-title" data-aos="fade-up">
             RoadMap
         </div>
@@ -346,6 +346,21 @@
             $('html, body').animate({scrollTop:0}, 1200);
             return false;
         })
+
+        $(".menu_feature").click(function(e) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#feature").offset().top
+            }, 1000);
+        });
+
+        $(".menu_roadmap").click(function(e) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#roadmap").offset().top
+            }, 1000);
+        });
+
     });
 </script>
 </body>
