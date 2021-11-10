@@ -376,8 +376,12 @@
 
         $('.scroll_top').click(function(){
             $('html, body').animate({scrollTop:0}, 1200);
+            setTimeout(() => {
+                $('.social-network').removeClass('is-roll')
+            }, 1300)
             return false;
         })
+
 
         $(".menu_feature").click(function(e) {
             e.preventDefault();
