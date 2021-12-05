@@ -173,14 +173,18 @@
         }
 
         &:nth-child(1) {
-          color: $color-blue;
+          color: $color-pink;
         }
 
         &:nth-child(2) {
-          color: $color-red;
+          color: $color-blue;
         }
 
         &:nth-child(3) {
+          color: $color-red;
+        }
+
+        &:nth-child(4) {
           color: $color-purple;
         }
 
@@ -188,19 +192,23 @@
           &:after {
             display: none;
           }
-
           &:nth-child(1) {
             color: $color-white;
-            background: $color-blue;
+            background: $color-pink;
             border-radius: 8px 0 0 8px;
           }
 
           &:nth-child(2) {
             color: $color-white;
-            background: $color-red;
+            background: $color-blue;
           }
 
           &:nth-child(3) {
+            color: $color-white;
+            background: $color-red;
+          }
+
+          &:nth-child(4) {
             color: $color-white;
             background: $color-purple;
           }
@@ -480,7 +488,57 @@
     }
 
   }
+
   .section-4 {
+    @include backgroundCoverCenter;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 80px 0;
+    margin: 0 auto;
+    .container {
+      width: percentage(1460 / 1920);
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+    }
+    .section-left {
+      width: percentage(782 / 1452);
+      margin-right: 60px;
+      img {
+        width: 100%;
+      }
+    }
+    .section-right {
+      width: percentage(600 / 1452);
+      .item {
+        margin-bottom: 40px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        .title {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 40px;
+          h3 {
+            font-size: 40px;
+            font-family: '8-Bit', sans-serif;
+            margin-right: 40px;
+            margin-bottom: 0;
+            line-height: 150%;
+          }
+          img {
+            width: percentage(211 / 1920);
+          }
+        }
+
+        .desc {
+          text-align: justify;
+        }
+      }
+    }
+  }
+  .section-5 {
     .block-title {
       font-size: 50px;
       padding-bottom: 50px;
@@ -515,13 +573,13 @@
 
         .content {
           position: relative;
-          .date {
+          .title {
             line-height: 150%;
             margin-bottom: 10px;
           }
           h2 {
             margin: 0 0 20px 0;
-            font-size: 18px;
+            font-size: 16px;
             font-weight: normal;
             font-family: '8-Bit', sans-serif;
           }
@@ -640,7 +698,7 @@
         bottom: 0;
         left: 50%;
         margin-left: -1px;
-        height: 88%;
+        height: 85%;
       }
 
       @include mediaMaxWidth(767.98px){
@@ -685,8 +743,8 @@
           }
         }
 
-        .container.left .date,
-        .container.right .date {
+        .container.left .title,
+        .container.right .title {
           right: auto;
           left: 15px;
         }
@@ -752,11 +810,31 @@
       }
       .block-videos {
         width: calc(1000% / 12);
+        &::before {
+          top: - percentage(275/822);
+        }
+        &::after {
+          top: - percentage(285/822);
+        }
       }
       .block-features {
         width: 100%;
         padding: 0 calc(100% / 12) 60px;
         grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    .section-4 {
+      padding: 60px 0;
+      .container {
+        width: calc(1000% / 12);
+        flex-direction: column;
+        .section-left {
+          margin-bottom: 40px;
+          margin-right: 0;
+        }
+        .section-left, .section-right {
+          width: 100%;
+        }
       }
     }
   }
@@ -835,21 +913,22 @@
 
     }
     .section-3 {
+      padding-top: 80px;
       .block-title {
         line-height: 130%;
         font-size: 22px;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
       }
       .block-videos {
         width: 100%;
         padding: 0 16px;
         &::before {
           left: -4.5%;
-          top: - percentage(325/822);
+          top: - percentage(268/822);
         }
         &::after {
           right: -4%;
-          top: - percentage(330/822);
+          top: - percentage(276/822);
         }
       }
       .block-features {
@@ -865,9 +944,28 @@
       }
     }
     .section-4 {
+      padding: 50px 16px;
+      .container {
+        width: 100%;
+      }
+      .section-right {
+        .item {
+          .title {
+            font-size: 32px;
+            line-height: 130%;
+            margin-bottom: 24px;
+          }
+        }
+      }
+    }
+    .section-5 {
       .block-title {
         font-size: 32px;
         line-height: 130%;
+      }
+      .timeline::after {
+        height: 85%;
+        top: 10px;
       }
     }
   }
@@ -959,7 +1057,7 @@
     .section-3 {
       .block-title {
         line-height: 130%;
-        padding-bottom: 40px;
+        padding-bottom: 25px;
         font-size: 26px;
       }
       .block-videos {
@@ -967,9 +1065,11 @@
         padding: 0 8px;
         &::before {
           left: -4%;
+          top: - percentage(330/822);
         }
         &::after {
           right: -4%;
+          top: - percentage(330/822);
         }
       }
       .block-features {
@@ -978,6 +1078,31 @@
       }
     }
     .section-4 {
+      padding: 24px 8px;
+
+      .container {
+        width: 100%;
+      }
+      .section-left {
+        margin-bottom: 24px;
+      }
+      .section-right {
+        .item {
+          margin-bottom: 24px;
+          .title {
+            margin-bottom: 16px;
+            flex-direction: column;
+            h3 {
+              line-height: 130%;
+              margin-bottom: 0;
+              padding-bottom: 25px;
+              font-size: 26px;
+            }
+          }
+        }
+      }
+    }
+    .section-5 {
       .block-title {
         font-size: 32px;
         line-height: 130%;
@@ -985,9 +1110,19 @@
     }
   }
   @include mediaMaxWidth(420px) {
-    .section-4 {
+    .section-3 {
+      .block-videos {
+        &::before {
+          top: - percentage(370/822);
+        }
+        &::after {
+          top: - percentage(370/822);
+        }
+      }
+    }
+    .section-5 {
       .timeline::after {
-        height: 90%;
+        height: 88%;
         top: 10px;
       }
     }
