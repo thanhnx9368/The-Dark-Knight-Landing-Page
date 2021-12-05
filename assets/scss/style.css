@@ -1396,6 +1396,7 @@ html h6, body h6 {
 .main .section-4 {
   background-size: cover;
   background-position: center center;
+  background-color: #2A012C;
   background-repeat: no-repeat;
   position: relative;
   padding: 80px 0;
@@ -1405,17 +1406,17 @@ html h6, body h6 {
   width: 76.0416666667%;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .main .section-4 .section-left {
-  width: 53.8567493113%;
+  width: 51.3698630137%;
   margin-right: 60px;
 }
 .main .section-4 .section-left img {
   width: 100%;
 }
 .main .section-4 .section-right {
-  width: 41.3223140496%;
+  width: 47.9452054795%;
 }
 .main .section-4 .section-right .item {
   margin-bottom: 40px;
@@ -1428,6 +1429,7 @@ html h6, body h6 {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 40px;
+  position: relative;
 }
 .main .section-4 .section-right .item .title h3 {
   font-size: 40px;
@@ -1448,6 +1450,8 @@ html h6, body h6 {
 .main .section-4 .section-right .item:first-child .title img {
   transform: scaleX(-1);
   width: 30%;
+  position: absolute;
+  right: -5%;
 }
 .main .section-5 .block-title {
   font-size: 50px;
@@ -1905,7 +1909,7 @@ html h6, body h6 {
     margin-bottom: 24px;
   }
   .main .section-4 .section-right .item {
-    margin-bottom: 24px;
+    margin-bottom: 40px;
   }
   .main .section-4 .section-right .item .title {
     margin-bottom: 16px;
@@ -1916,6 +1920,9 @@ html h6, body h6 {
     margin-bottom: 0;
     padding-bottom: 25px;
     font-size: 26px;
+  }
+  .main .section-4 .section-right .item:first-child .title img {
+    position: unset;
   }
   .main .section-5 .block-title {
     font-size: 32px;
