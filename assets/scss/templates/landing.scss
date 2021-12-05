@@ -528,12 +528,23 @@
             line-height: 150%;
           }
           img {
-            width: percentage(211 / 1920);
+            width: 18%;
           }
         }
 
         .desc {
           text-align: justify;
+        }
+        &:first-child {
+          .title {
+            h3 {
+              margin-right: 0;
+            }
+            img {
+              transform: scaleX(-1);
+              width: 30%;
+            }
+          }
         }
       }
     }

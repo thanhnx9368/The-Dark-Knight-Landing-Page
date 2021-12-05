@@ -1437,10 +1437,17 @@ html h6, body h6 {
   line-height: 150%;
 }
 .main .section-4 .section-right .item .title img {
-  width: 10.9895833333%;
+  width: 18%;
 }
 .main .section-4 .section-right .item .desc {
   text-align: justify;
+}
+.main .section-4 .section-right .item:first-child .title h3 {
+  margin-right: 0;
+}
+.main .section-4 .section-right .item:first-child .title img {
+  transform: scaleX(-1);
+  width: 30%;
 }
 .main .section-5 .block-title {
   font-size: 50px;
