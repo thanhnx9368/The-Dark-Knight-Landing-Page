@@ -1639,6 +1639,17 @@ html h6, body h6 {
     left: 66px;
   }
 }
+@media only screen and (max-width: 1440px) {
+  .main .section-3 .block-videos {
+    width: calc(1000% / 12);
+  }
+  .main .section-3 .block-videos::before {
+    left: -11%;
+  }
+  .main .section-3 .block-videos::after {
+    right: -11%;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .main .section-1 {
     height: 72vh;
