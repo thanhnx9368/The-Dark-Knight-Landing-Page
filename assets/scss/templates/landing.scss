@@ -901,6 +901,8 @@
           transform: translate(-50%, -50%);
           width: 70%;
           height: 70%;
+          display: flex;
+          justify-content: center;
           img {
             height: 50px;
           }

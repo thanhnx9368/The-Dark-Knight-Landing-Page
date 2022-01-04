@@ -1776,6 +1776,8 @@ html h6, body h6 {
   transform: translate(-50%, -50%);
   width: 70%;
   height: 70%;
+  display: flex;
+  justify-content: center;
 }
 .main .section-7 .list-partnerships .item .image img {
   height: 50px;
