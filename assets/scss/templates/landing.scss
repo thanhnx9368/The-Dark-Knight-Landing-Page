@@ -1466,12 +1466,17 @@ footer {
 
 .swiper-button-next, .swiper-button-prev {
   color: $color-white;
-  background: #333;
+  //background: #333;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
+  img {
+    position: relative;
+    top: 2px;
+    height: 90%;
+  }
   i {
     font-size: 26px;
   }
@@ -1496,6 +1501,9 @@ footer {
 .swiper-button-prev {
   left: -70px;
   border-radius: 50%;
+  img {
+    transform: scaleX(-1);
+  }
   @include mediaMaxWidth(768px) {
     left: -40px;
   }
