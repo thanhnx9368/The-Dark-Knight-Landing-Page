@@ -2248,9 +2248,6 @@ footer .social-list .social-item:hover img.active {
     font-size: 18px;
   }
 }
-.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
-  background: #A3A3A3;
-}
 .swiper-button-next:after, .swiper-button-prev:after {
   display: none;
 }
@@ -2259,9 +2256,6 @@ footer .social-list .social-item:hover img.active {
   left: -70px;
   border-radius: 50%;
 }
-.swiper-button-prev img {
-  transform: scaleX(-1);
-}
 @media only screen and (max-width: 768px) {
   .swiper-button-prev {
     left: -40px;
@@ -2269,7 +2263,7 @@ footer .social-list .social-item:hover img.active {
 }
 @media only screen and (max-width: 480px) {
   .swiper-button-prev {
-    left: -25px;
+    left: -30px;
   }
 }
 
@@ -2284,7 +2278,7 @@ footer .social-list .social-item:hover img.active {
 }
 @media only screen and (max-width: 480px) {
   .swiper-button-next {
-    right: -25px;
+    right: -30px;
   }
 }
 

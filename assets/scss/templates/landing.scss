@@ -1492,7 +1492,7 @@ footer {
 
 
   &.swiper-button-disabled {
-    background: #A3A3A3;
+    //background: #A3A3A3;
   }
 
   &:after {
@@ -1503,14 +1503,11 @@ footer {
 .swiper-button-prev {
   left: -70px;
   border-radius: 50%;
-  img {
-    transform: scaleX(-1);
-  }
   @include mediaMaxWidth(768px) {
     left: -40px;
   }
   @include mediaMaxWidth(480px) {
-    left: -25px;
+    left: -30px;
   }
 }
 
@@ -1521,7 +1518,7 @@ footer {
     right: -40px;
   }
   @include mediaMaxWidth(480px) {
-    right: -25px;
+    right: -30px;
   }
 }
 
