@@ -796,7 +796,7 @@
           .swiper-slide {
             @include backgroundContainCenter;
             background-repeat: no-repeat;
-            height: 380px;
+            height: 437px;
             transition: all 0.3s;
             overflow: hidden;
             &:before {
@@ -820,7 +820,7 @@
               background-image: url("../../assets/images/icons/team-down.svg");
               @include backgroundCoverCenter;
               background-repeat: no-repeat;
-              height: percentage(112 / 380);
+              height: percentage(112 / 437);
               z-index: 3;
             }
             .image {
@@ -851,7 +851,7 @@
                 text-align: center;
                 font-family: 'Oxanium-bold', sans-serif;
                 font-weight: 800;
-                font-size: 16px;
+                font-size: 18px;
                 line-height: 30px;
                 letter-spacing: 0.1em;
 
@@ -926,6 +926,12 @@
           img {
             height: 50px;
           }
+        }
+      }
+      @include mediaMinWidth(1920px) {
+        grid-template-columns: repeat(5, 1fr);
+        .item {
+          height: 180px;
         }
       }
     }
@@ -1331,7 +1337,7 @@
                 height: 90px;
               }
               &:after {
-                height: percentage(90 / 380);
+                height: percentage(90 / 437);
               }
             }
           }
