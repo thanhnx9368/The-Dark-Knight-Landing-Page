@@ -854,11 +854,30 @@
                 font-size: 16px;
                 line-height: 30px;
                 letter-spacing: 0.1em;
+
               }
               .title {
                 text-align: center;
                 font-size: 16px;
                 line-height: 150%;
+              }
+              @include mediaMinWidth(1920px) {
+                padding-bottom: 15px;
+                .name {
+                  font-size: 20px;
+                }
+                .title {
+                  font-size: 20px;
+                }
+              }
+              @include mediaMinWidth(2560px) {
+                padding-bottom: 20px;
+                .name {
+                  font-size: 30px;
+                }
+                .title {
+                  font-size: 30px;
+                }
               }
             }
             &:hover {

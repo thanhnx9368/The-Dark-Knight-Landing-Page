@@ -1737,6 +1737,28 @@ html h6, body h6 {
   font-size: 16px;
   line-height: 150%;
 }
+@media only screen and (min-width: 1920px) {
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .info {
+    padding-bottom: 15px;
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .info .name {
+    font-size: 20px;
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .info .title {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .info {
+    padding-bottom: 20px;
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .info .name {
+    font-size: 30px;
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .info .title {
+    font-size: 30px;
+  }
+}
 .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide:hover {
   color: #F200B8;
 }
