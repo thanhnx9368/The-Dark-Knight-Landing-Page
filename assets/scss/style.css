@@ -1647,6 +1647,8 @@ html h6, body h6 {
 }
 .main .section-6 {
   padding: 100px 0;
+  background-size: cover;
+  background-position: center center;
 }
 .main .section-6 .block-title {
   font-size: 50px;
@@ -2316,6 +2318,12 @@ footer .social-list .social-item:hover img.active {
   cursor: pointer;
   border: 0;
   box-sizing: border-box;
+}
+@media only screen and (min-width: 1920px) {
+  .swiper-pagination .swiper-pagination-bullet {
+    margin: 0 20px !important;
+    transform: scale(2);
+  }
 }
 .swiper-pagination .swiper-pagination-bullet:last-child {
   margin-right: 0;

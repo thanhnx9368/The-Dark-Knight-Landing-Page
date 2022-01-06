@@ -776,6 +776,7 @@
 
   .section-6 {
     padding: 100px 0;
+    @include backgroundCoverCenter;
     .block-title {
       font-size: 50px;
       padding-bottom: 60px;
@@ -1552,10 +1553,10 @@ footer {
     cursor: pointer;
     border: 0;
     box-sizing: border-box;
-    //@include mediaMaxWidth(480px) {
-    //  width: 8px;
-    //  height: 8px;
-    //}
+    @include mediaMinWidth(1920px) {
+      margin: 0 20px !important;
+      transform: scale(2);
+    }
 
     &:last-child {
       margin-right: 0;
