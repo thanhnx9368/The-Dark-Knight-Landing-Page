@@ -1669,7 +1669,7 @@ html h6, body h6 {
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 437px;
+  height: 380px;
   transition: all 0.3s;
   overflow: hidden;
 }
@@ -1696,7 +1696,7 @@ html h6, body h6 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 25.6292906178%;
+  height: 29.4736842105%;
   z-index: 3;
 }
 .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .image {
@@ -2140,7 +2140,7 @@ html h6, body h6 {
     height: 90px;
   }
   .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide:after {
-    height: 20.5949656751%;
+    height: 23.6842105263%;
   }
   .main .section-7 .list-partnerships {
     padding: 0 8px;

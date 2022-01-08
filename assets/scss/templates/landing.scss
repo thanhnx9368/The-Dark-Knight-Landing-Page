@@ -796,7 +796,7 @@
           .swiper-slide {
             @include backgroundContainCenter;
             background-repeat: no-repeat;
-            height: 437px;
+            height: 380px;
             transition: all 0.3s;
             overflow: hidden;
             &:before {
@@ -820,7 +820,7 @@
               background-image: url("../../assets/images/icons/team-down.svg");
               @include backgroundCoverCenter;
               background-repeat: no-repeat;
-              height: percentage(112 / 437);
+              height: percentage(112 / 380);
               z-index: 3;
             }
             .image {
@@ -1337,7 +1337,7 @@
                 height: 90px;
               }
               &:after {
-                height: percentage(90 / 437);
+                height: percentage(90 / 380);
               }
             }
           }
