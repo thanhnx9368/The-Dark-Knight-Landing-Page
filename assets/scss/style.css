@@ -2003,6 +2003,17 @@ html h6, body h6 {
     font-size: 32px;
     line-height: 130%;
   }
+  .main .section-6 .block-content .slide-thumbs {
+    width: 65%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper {
+    margin-bottom: 60px;
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide {
+    height: 330px;
+  }
   .main .section-7 {
     padding: 60px 0;
   }
@@ -2290,12 +2301,7 @@ footer .social-list .social-item:hover img.active {
 }
 @media only screen and (max-width: 768px) {
   .swiper-button-prev {
-    left: -40px;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .swiper-button-prev {
-    left: -30px;
+    left: -50px;
   }
 }
 
@@ -2305,12 +2311,7 @@ footer .social-list .social-item:hover img.active {
 }
 @media only screen and (max-width: 768px) {
   .swiper-button-next {
-    right: -40px;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .swiper-button-next {
-    right: -30px;
+    right: -50px;
   }
 }
 
