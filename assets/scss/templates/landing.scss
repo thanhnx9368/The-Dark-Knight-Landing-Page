@@ -826,12 +826,13 @@
             .image {
               height: 100%;
               img {
+                background: #00023C;
                 position: absolute;
                 top: 51%;
-                left: 50%;
+                left: 47%;
                 transform: translate(-50%, -50%);
                 height: 77%;
-                width: 87%;
+                width: 93%;
               }
             }
             .info {
@@ -1349,7 +1350,10 @@
           .swiper-wrapper {
             .swiper-slide {
               &:before {
-                height: 90px;
+                height: 70px;
+                height: 70px;
+                top: 10px;
+                left: -2px;
               }
               &:after {
                 height: percentage(90 / 380);

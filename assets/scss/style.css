@@ -1703,12 +1703,13 @@ html h6, body h6 {
   height: 100%;
 }
 .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .image img {
+  background: #00023C;
   position: absolute;
   top: 51%;
-  left: 50%;
+  left: 47%;
   transform: translate(-50%, -50%);
   height: 77%;
-  width: 87%;
+  width: 93%;
 }
 .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .info {
   position: absolute;
@@ -2148,7 +2149,10 @@ html h6, body h6 {
     line-height: 130%;
   }
   .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide:before {
-    height: 90px;
+    height: 70px;
+    height: 70px;
+    top: 10px;
+    left: -2px;
   }
   .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide:after {
     height: 23.6842105263%;
