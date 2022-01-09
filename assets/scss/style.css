@@ -1821,6 +1821,23 @@ html h6, body h6 {
     height: 180px;
   }
 }
+@media only screen and (max-width: 1920px) {
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide {
+    transform: scale(0.7);
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide:before {
+    left: 16px;
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide:after {
+    right: -26px;
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .info .name {
+    transform: scale(1.25);
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .info .title {
+    transform: scale(1.25);
+  }
+}
 @media only screen and (max-width: 1440px) {
   .main .section-3 .block-videos {
     width: calc(1000% / 12);
@@ -2163,20 +2180,22 @@ html h6, body h6 {
     font-size: 32px;
     line-height: 130%;
   }
+  .main .section-6 .block-title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide {
     transform: scale(0.5);
     right: 20px;
   }
   .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide:before {
-    height: 70px;
-    height: 70px;
-    top: 20px;
+    top: 16px;
     width: 100%;
   }
   .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide:after {
     bottom: 8px;
-    left: 45px;
     width: 100%;
+    left: 48px;
   }
   .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .image img {
     top: 50%;
