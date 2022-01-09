@@ -1669,34 +1669,40 @@ html h6, body h6 {
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 380px;
+  height: 437px;
   transition: all 0.3s;
-  overflow: hidden;
+  padding: 0 30px;
+  transform: scale(0.6);
+}
+@media only screen and (min-width: 1921px) {
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide {
+    height: 437px;
+  }
 }
 .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide:before {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 11px;
+  left: 21px;
   content: "";
   background-image: url("../../assets/images/icons/team-up.svg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 114px;
-  width: 93.5%;
+  height: 90px;
+  width: 97%;
   z-index: 1;
 }
 .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide:after {
   position: absolute;
-  bottom: 0;
-  right: -8px;
-  width: 130%;
+  bottom: 10px;
+  right: -33px;
+  width: 96%;
   content: "";
   background-image: url("../../assets/images/icons/team-down.svg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 29.4736842105%;
+  height: 20.5949656751%;
   z-index: 3;
 }
 .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .image {
@@ -1706,18 +1712,18 @@ html h6, body h6 {
   background: #00023C;
   position: absolute;
   top: 51%;
-  left: 47%;
+  left: 56%;
   transform: translate(-50%, -50%);
   height: 77%;
-  width: 93%;
+  width: 90%;
 }
 .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .info {
   position: absolute;
   top: 80%;
-  left: 50%;
+  left: 56%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 100%;
+  width: 90%;
   height: 20%;
   display: flex;
   flex-direction: column;
@@ -1886,6 +1892,12 @@ html h6, body h6 {
   .main .section-4 .container .section-left, .main .section-4 .container .section-right {
     width: 100%;
   }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .image img {
+    left: 57%;
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .info {
+    left: 57%;
+  }
 }
 @media only screen and (max-width: 768px) {
   .main header {
@@ -2005,15 +2017,18 @@ html h6, body h6 {
     line-height: 130%;
   }
   .main .section-6 .block-content .slide-thumbs {
-    width: 65%;
+    width: 100%;
     margin: 0 auto;
     position: relative;
   }
   .main .section-6 .block-content .swiper-container .swiper-wrapper {
     margin-bottom: 60px;
   }
-  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide {
-    height: 330px;
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide:after {
+    left: 43px;
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide:right {
+    left: 21px;
   }
   .main .section-7 {
     padding: 60px 0;
@@ -2148,14 +2163,36 @@ html h6, body h6 {
     font-size: 32px;
     line-height: 130%;
   }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide {
+    transform: scale(0.5);
+    right: 20px;
+  }
   .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide:before {
     height: 70px;
     height: 70px;
-    top: 10px;
-    left: -2px;
+    top: 20px;
+    width: 100%;
   }
   .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide:after {
-    height: 23.6842105263%;
+    bottom: 8px;
+    left: 45px;
+    width: 100%;
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .image img {
+    top: 50%;
+    left: 59%;
+    height: 77%;
+    width: 93%;
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .info {
+    left: 59%;
+    width: 93%;
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .info .name {
+    transform: scale(1.35);
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .info .title {
+    transform: scale(1.35);
   }
   .main .section-7 .list-partnerships {
     padding: 0 8px;
@@ -2305,7 +2342,7 @@ footer .social-list .social-item:hover img.active {
 }
 @media only screen and (max-width: 768px) {
   .swiper-button-prev {
-    left: -50px;
+    left: 0;
   }
 }
 
@@ -2315,7 +2352,7 @@ footer .social-list .social-item:hover img.active {
 }
 @media only screen and (max-width: 768px) {
   .swiper-button-next {
-    right: -50px;
+    right: 0;
   }
 }
 
@@ -2338,7 +2375,7 @@ footer .social-list .social-item:hover img.active {
   .swiper-pagination {
     left: 15px;
     right: 15px;
-    bottom: 20px;
+    bottom: 100px !important;
   }
 }
 .swiper-pagination .swiper-pagination-bullet {

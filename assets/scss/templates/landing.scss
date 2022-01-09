@@ -796,31 +796,36 @@
           .swiper-slide {
             @include backgroundContainCenter;
             background-repeat: no-repeat;
-            height: 380px;
+            height: 437px;
             transition: all 0.3s;
-            overflow: hidden;
+            padding: 0 30px;
+            // overflow: hidden;
+            transform: scale(0.6);
+            @include mediaMinWidth(1921px) {
+              height: 437px;
+            }
             &:before {
               position: absolute;
-              top: 0;
-              left: 0;
+              top: 11px;
+              left: 21px;
               content: "";
               background-image: url("../../assets/images/icons/team-up.svg");
               @include backgroundCoverCenter;
               background-repeat: no-repeat;
-              height: 114px;
-              width: 93.5%;
+              height: 90px;
+              width: 97%;
               z-index: 1;
             }
             &:after {
               position: absolute;
-              bottom: 0;
-              right: -8px;
-              width: 130%;
+              bottom: 10px;
+              right: -33px;
+              width: 96%;
               content: "";
               background-image: url("../../assets/images/icons/team-down.svg");
               @include backgroundCoverCenter;
               background-repeat: no-repeat;
-              height: percentage(112 / 380);
+              height: percentage(90 / 437);
               z-index: 3;
             }
             .image {
@@ -829,19 +834,19 @@
                 background: #00023C;
                 position: absolute;
                 top: 51%;
-                left: 47%;
+                left: 56%;
                 transform: translate(-50%, -50%);
                 height: 77%;
-                width: 93%;
+                width: 90%;
               }
             }
             .info {
               position: absolute;
               top: 80%;
-              left: 50%;
+              left: 56%;
               transform: translate(-50%, -50%);
               z-index: 2;
-              width: 100%;
+              width: 90%;
               height: 20%;
               display: flex;
               flex-direction: column;
@@ -855,7 +860,6 @@
                 font-size: 18px;
                 line-height: 30px;
                 letter-spacing: 0.1em;
-
               }
               .title {
                 text-align: center;
@@ -1029,6 +1033,30 @@
         }
       }
     }
+    .section-6 {
+      .block-content {
+        .swiper-container {
+          .swiper-wrapper {
+            .swiper-slide {
+              &:before {
+            
+              }
+              &:after {
+               
+              }
+              .image {
+                img {
+                  left: 57%;
+                }
+              }
+              .info {
+                left: 57%;
+              }
+            }
+          }
+        }
+      }
+    }
   }
   @include mediaMaxWidth(768px) {
     header {
@@ -1168,7 +1196,7 @@
       }
       .block-content {
         .slide-thumbs {
-          width: 65%;
+          width: 100%;
           margin: 0 auto;
           position: relative;
         }
@@ -1176,7 +1204,13 @@
           .swiper-wrapper {
             margin-bottom: 60px;
             .swiper-slide {
-              height: 330px;
+              &:after {
+                left: 43px;
+              }
+              &:right {
+                left: 21px;
+              }
+              // height: 330px;
             }
           }
         }
@@ -1349,14 +1383,36 @@
         .swiper-container {
           .swiper-wrapper {
             .swiper-slide {
+              transform: scale(0.5);
+              right: 20px;
               &:before {
                 height: 70px;
                 height: 70px;
-                top: 10px;
-                left: -2px;
+                top: 20px;
+                width: 100%;
               }
               &:after {
-                height: percentage(90 / 380);
+                bottom: 8px;
+                left: 45px;
+                width: 100%;
+              }
+              .image {
+                img {
+                  top: 50%;
+                  left: 59%;
+                  height: 77%;
+                  width: 93%;
+                }
+              }
+              .info {
+                left: 59%;
+                width: 93%;
+                .name {
+                  transform: scale(1.35);
+                }
+                .title {
+                  transform: scale(1.35);
+                }
               }
             }
           }
@@ -1549,7 +1605,7 @@ footer {
   left: -70px;
   border-radius: 50%;
   @include mediaMaxWidth(768px) {
-    left: -50px;
+    left: 0;
   }
 }
 
@@ -1557,7 +1613,7 @@ footer {
   right: -70px;
   border-radius: 50%;
   @include mediaMaxWidth(768px) {
-    right: -50px;
+    right: 0;
   }
 }
 
@@ -1576,7 +1632,7 @@ footer {
   @include mediaMaxWidth(480px) {
     left: 15px;
     right: 15px;
-    bottom: 20px;
+    bottom: 100px !important;
   }
 
   .swiper-pagination-bullet {
