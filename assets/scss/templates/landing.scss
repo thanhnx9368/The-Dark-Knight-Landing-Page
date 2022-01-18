@@ -931,7 +931,11 @@
           img {
             height: 50px;
           }
+          &.mexc {
+            width: 72%;
+          }
         }
+        
       }
       @include mediaMinWidth(1920px) {
         grid-template-columns: repeat(5, 1fr);
