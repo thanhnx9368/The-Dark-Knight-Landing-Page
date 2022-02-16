@@ -1,0 +1,26 @@
+{
+  "name": "the-dead-knight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanhnx9368/The-Dark-Knight-Landing-Page.git"
+  },
+  "author": "thanhnx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanhnx9368/The-Dark-Knight-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/thanhnx9368/The-Dark-Knight-Landing-Page#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
