@@ -10,5 +10,4 @@ app.get("/", (req, res) => {
 app.get("/marketplace", (req, res) => {
   res.sendFile(path.join(path.join(__dirname, "./"), "marketplace.html"));
 });
-
 app.listen(8080, () => console.log("App running at port 8080"));
