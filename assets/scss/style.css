@@ -1108,6 +1108,7 @@ html h6, body h6 {
 }
 .main header .logo {
   margin-bottom: 30px;
+  width: 70%;
 }
 .main header .menus {
   display: flex;
