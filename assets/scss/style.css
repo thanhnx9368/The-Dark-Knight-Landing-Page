@@ -1153,6 +1153,9 @@ html h6, body h6 {
 .main header .menus .menu:nth-child(4) {
   color: #7841A1;
 }
+.main header .menus .menu:nth-child(5) {
+  color: #1FBC7F;
+}
 .main header .menus .menu:hover:after {
   display: none;
 }
@@ -1172,6 +1175,10 @@ html h6, body h6 {
 .main header .menus .menu:hover:nth-child(4) {
   color: #FFFFFF;
   background: #7841A1;
+}
+.main header .menus .menu:hover:nth-child(5) {
+  color: #FFFFFF;
+  background: #1FBC7F;
 }
 .main header .menus .social-list {
   display: flex;
@@ -2079,6 +2086,7 @@ html h6, body h6 {
     width: calc(100% / 3);
     padding: 8px 4px;
     text-align: center;
+    font-size: 11px;
   }
   .main header .menus .menu::after {
     display: none;

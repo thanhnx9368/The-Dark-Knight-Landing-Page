@@ -188,6 +188,9 @@
         &:nth-child(4) {
           color: $color-purple;
         }
+        &:nth-child(5) {
+          color: $color-green-white;
+        }
 
         &:hover {
           &:after {
@@ -212,6 +215,11 @@
           &:nth-child(4) {
             color: $color-white;
             background: $color-purple;
+          }
+
+          &:nth-child(5) {
+            color: $color-white;
+            background: $color-green-white;
           }
         }
       }
@@ -1286,6 +1294,7 @@
           width: calc(100% / 3);
           padding: 8px 4px;
           text-align: center;
+          font-size: 11px;
           &::after {
             display: none;
           }
