@@ -12615,6 +12615,7 @@ footer .social-list .social-item:hover img.active {
   width: 200px;
   height: 50px;
   margin-right: 20px;
+  cursor: pointer;
 }
 .brand-guideline .section-2 .mini-section .content .content-list .content-item .button-download a :last-child {
   margin-right: 0;
@@ -12966,7 +12967,7 @@ footer .social-list .social-item:hover img.active {
     margin-right: 0;
   }
   .brand-guideline .section-2 .mini-section .content .color-list .color-item .action {
-    margin-bottom: 8px;
+    margin-top: 8px;
   }
   .brand-guideline .section-2 .mini-section .content .color-list .color-item .action p {
     font-size: 14px;
@@ -12990,11 +12991,11 @@ footer .social-list .social-item:hover img.active {
     padding: 35px 0 0px;
   }
   .brand-guideline header .logo {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
     width: 70%;
   }
   .brand-guideline header .logo h1 {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
   }
   .brand-guideline header .logo .date {
@@ -13004,15 +13005,15 @@ footer .social-list .social-item:hover img.active {
     margin-top: 8px;
   }
   .brand-guideline header .menus .menu {
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 10px;
+    line-height: 10px;
     padding: 4px;
   }
   .brand-guideline .section-1 {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 70vh;
     position: relative;
   }
   .brand-guideline .section-1 .banner-content {
@@ -13036,9 +13037,6 @@ footer .social-list .social-item:hover img.active {
     padding-bottom: 16px;
     font-size: 16px;
     line-height: 16px;
-  }
-  .brand-guideline .section-2 .mini-section .content {
-    margin: 16px 0 40px;
   }
   .brand-guideline .section-2 .mini-section .content .content-list .content-item {
     margin-bottom: 16px;
@@ -13085,7 +13083,7 @@ footer .social-list .social-item:hover img.active {
     margin-right: 0;
   }
   .brand-guideline .section-2 .mini-section .content .color-list .color-item .action {
-    margin-bottom: 8px;
+    margin-top: 4px;
   }
   .brand-guideline .section-2 .mini-section .content .color-list .color-item .action p {
     font-size: 12px;
