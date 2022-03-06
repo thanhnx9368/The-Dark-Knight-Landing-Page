@@ -107,8 +107,8 @@
 @mixin inputPlaceholder() {
     &::-webkit-input-placeholder,
     &:-ms-input-placeholder,
-    &::-moz-placeholder, 
-    &:-moz-placeholder {  
+    &::-moz-placeholder,
+    &:-moz-placeholder {
         @content;
     }
 }
@@ -120,3 +120,11 @@ $color-red: #E24343;
 $color-purple: #7841A1;
 $color-pink: #F200B8;
 $color-green-white: #1FBC7F;
+$color-black: #000000;
+
+.text-8-bit {
+	font-family: '8-Bit', sans-serif;
+}
+.text-black {
+  color: $color-black
+}

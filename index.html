@@ -548,7 +548,7 @@
                     <img src="./assets/images/partners/MEXC_PIONEER_logo.png" alt="Deadknight">
                 </div>
             </div>
-            
+
             <div class="item" style="background-image: url('./assets/images/background/partner-bg.png')">
                 <div class="image">
                     <img src="./assets/images/partners/babylons.png" alt="Deadknight">
@@ -616,16 +616,11 @@
                 </div>
             </div>
             <div class="item" style="background-image: url('./assets/images/background/partner-bg.png')">
-                <div class="image">
-                    <img src="./assets/images/partners/mtvp.png" alt="Deadknight">
-                </div>
-            </div>
-            <div class="item" style="background-image: url('./assets/images/background/partner-bg.png')">
                 <div class="image mexc">
                     <img src="./assets/images/partners/multiversepad.png" alt="Deadknight">
                 </div>
             </div>
-           
+
         </div>
     </section>
 </main>
@@ -712,6 +707,17 @@
             return false;
         })
 
+        if (window.location.hash == '#features') {
+          $('html, body').animate({
+                scrollTop: $("#feature").offset().top
+            }, 1000);
+        }
+
+        if (window.location.hash == '#roadmap') {
+          $('html, body').animate({
+                scrollTop: $("#roadmap").offset().top
+            }, 1000);
+        }
 
         $(".menu_feature").click(function(e) {
             e.preventDefault();
