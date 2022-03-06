@@ -1087,6 +1087,37 @@
 
   }
   @include mediaMaxWidth(1440px) {
+    .section-6 {
+      .block-content {
+        .swiper-container {
+          .swiper-wrapper {
+            .swiper-slide {
+              transform: scale(0.8);
+              &:before {
+                left: 16px;
+              }
+              &:after {
+                right: -23px;
+              }
+              .image {
+                img {
+                  left: 58%;
+                }
+              }
+              .info {
+                left: 58%;
+                .name {
+                  transform: scale(1);
+                }
+                .title {
+                  transform: scale(1);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
     .section-3 {
       .block-videos {
         width: calc(1000% / 12);

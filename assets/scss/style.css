@@ -11878,6 +11878,27 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   }
 }
 @media only screen and (max-width: 1440px) {
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide {
+    transform: scale(0.8);
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide:before {
+    left: 16px;
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide:after {
+    right: -23px;
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .image img {
+    left: 58%;
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .info {
+    left: 58%;
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .info .name {
+    transform: scale(1);
+  }
+  .main .section-6 .block-content .swiper-container .swiper-wrapper .swiper-slide .info .title {
+    transform: scale(1);
+  }
   .main .section-3 .block-videos {
     width: calc(1000% / 12);
   }
