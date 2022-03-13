@@ -869,13 +869,16 @@ a:hover {
   text-decoration: none !important;
 }
 
+html {
+  overflow: hidden;
+  overflow-y: auto;
+}
+
 html, body {
   font-family: "NotoSans-Regular";
   font-size: 16px;
   line-height: 24px;
   color: #FFFFFF;
-  overflow: hidden;
-  overflow-y: auto;
 }
 html strong, body strong {
   font-family: "NotoSans-Bold";

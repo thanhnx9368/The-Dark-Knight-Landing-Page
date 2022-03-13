@@ -24,14 +24,16 @@ a,
 a:hover{
 	text-decoration: none !important;
 }
+html {
+	overflow: hidden;
+	overflow-y: auto;
+}
 
 html, body{
 	font-family: 'NotoSans-Regular';
 	font-size: 16px;
 	line-height: 24px;
 	color: $color-white;
-	overflow: hidden;
-	overflow-y: auto;
 
 	strong{
 		font-family: 'NotoSans-Bold';
