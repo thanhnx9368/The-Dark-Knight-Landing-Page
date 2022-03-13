@@ -29,13 +29,13 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.0/css/swiper.min.css">
     <link rel="stylesheet" href="./assets/scss/vendors/aos.min.css">
-    <link rel="stylesheet" href="./assets/scss/vendors/flipdown.min.css">
+    <!-- <link rel="stylesheet" href="./assets/scss/vendors/flipdown.min.css"> -->
 
     <link rel="stylesheet" href="./assets/scss/style.css">
     <script src="./assets/scripts/vendors/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.0/js/swiper.min.js"></script>
     <script src="./assets/scripts/vendors/aos.min.js"></script>
-    <script src="./assets/scripts/vendors/flipdown.min.js"></script>
+    <!-- <script src="./assets/scripts/vendors/flipdown.min.js"></script> -->
 </head>
 <body>
 <div class="scroll_top_pc" style="background-image: url('./assets/images/background/5.png')">
@@ -159,7 +159,7 @@
         </div>
     </section>
 
-    <div class="popup-countdown active" id="popup-countdown">
+    <!-- <div class="popup-countdown active" id="popup-countdown">
         <div class="content">
             <div class="--title">Dead Knight Mint Countdown</div>
             <div class="--desc">
@@ -171,7 +171,7 @@
             </div>
             <div class="--close"><img src="./assets/images/icons/close.png" alt="Dead Knight"></div>
         </div>
-    </div>
+    </div> -->
 
     <section class="section section-2" style="background-image: url('./assets/images/background/2.png')">
         <div class="section-text-top">
@@ -726,7 +726,7 @@
             }, 1000);
         });
 
-        $(".menu_ roadmap").click(function(e) {
+        $(".menu_roadmap").click(function(e) {
             e.preventDefault();
             $('html, body').animate({
                 scrollTop: $("#roadmap").offset().top
@@ -772,28 +772,20 @@
 
     });
 
-    document.addEventListener('DOMContentLoaded', () => {
+    // document.addEventListener('DOMContentLoaded', () => {
 
-    const time = 1646841600000 / 1000
-    // Set up FlipDown
-    var flipdown = new FlipDown(time)
-    // Start the countdown
-    .start()
+    // const time = 1646841600000 / 1000
+    // // Set up FlipDown
+    // var flipdown = new FlipDown(time)
+    // // Start the countdown
+    // .start()
 
-    // Do something when the countdown ends
-    .ifEnded(() => {
-        document.getElementById('popup-countdown').classList.remove('active')
-    });
+    // // Do something when the countdown ends
+    // .ifEnded(() => {
+    //     document.getElementById('popup-countdown').classList.remove('active')
+    // });
 
-    // Toggle theme
-    // var interval = setInterval(() => {
-    // let body = document.body;
-    // body.classList.toggle('light-theme');
-    // body.querySelector('#flipdown').classList.toggle('flipdown__theme-dark');
-    // body.querySelector('#flipdown').classList.toggle('flipdown__theme-light');
-    // }, 5000);
-
-    });
+    // });
 </script>
 </body>
 </html>
